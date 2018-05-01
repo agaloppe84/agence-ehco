@@ -1,1 +1,37 @@
-// Specific CSS for your home-page
+body {
+  background: linear-gradient(rgba(33,171,165,0.5), white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: #1D566E;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 26px;
+  }
+  h4 {
+    color: #1D566E;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+}
